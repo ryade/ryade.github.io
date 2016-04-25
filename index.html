@@ -9,7 +9,8 @@ layout: default
       <div class="post">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
           <h3 class="h2 post-title">{{ post.title }}</h3>
-          <article class="post-content">{{ content }}</article>
+          <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
+          <p class="post-summary">{{ post.summary }}</p>
         </a>
       </div>
     {% endfor %}
