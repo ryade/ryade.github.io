@@ -59,6 +59,9 @@ body {
 .site-header a {
   color: #333;
   font-weight: 300;
+  position:fixed; top:0px; margin:auto; z-index:100000; width:100%;
+  background:#000; height:50px; opacity:0.8;
+  padding-top:15px;
 }
 
 .site-header nav a {
