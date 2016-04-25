@@ -1,0 +1,10 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://ryade.github.io
+title: Rama Yade, Politicienne
+email: rarayade@dawser.com
+author: Rama Yade
+description: Blog dédié a Mme Rama Yade
+paginate: 3
+google_analytics: 
